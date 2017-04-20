@@ -1,0 +1,259 @@
+input,textarea{
+	display: block;
+}
+
+nav ul{
+	list-style-type: none;
+}
+
+form{
+	clear: both;
+}
+
+section{
+	clear: both;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+h1{
+	font-size: 1.5em;
+}
+
+/*************** cours CSS *******************/
+body{
+	height: 100%;
+	width: 100%;
+	background-color: grey;
+	font-family : Helvetica, Arial, sans-serif;
+	margin:0;
+	padding:0;
+}
+/*----------------------- bande gauche ------------------------*/
+.Bienvenue {
+	margin-left: 200px;
+	padding-left: 15px;
+	padding-top: 10px;
+	margin-top:0px;
+	background-color: #e6e6e6;
+	width: 95%;
+	height: 60px;
+	font-size: 2em;
+	color: #7f7e7e;
+	position: fixed;
+	z-index: 9;
+}
+nav{
+	background-color: #3a3a3a;
+	width: 200px;
+	font-size: 1.25em;
+	position: fixed;
+	top:0;
+	bottom: 0;
+}
+
+	.entete{
+		width: 200px;
+		height: 60px;
+		line-height: 60px;
+		text-align: center;
+		background-color: #303030;
+		color: white;
+		font-size: 25px;
+	}
+	
+	.administration
+	{
+	padding: 0px;	
+	}
+
+	.administration a{
+		display: inline-block;
+		width: 185px;
+		color: white;
+		padding-left: 10px;
+		height: 50px;
+		line-height: 50px;
+		
+	}
+
+		.administration a:hover {
+			background-color: white;
+			color: black;
+			border-left: solid 5px ;
+			border-color: #f68e56 ;
+		}
+
+	#selection{
+
+		background-color: white;
+		color: black;
+		border-left: solid 5px ;
+		border-color: #f68e56 ;
+	}
+
+/*-----------------------centre de la page ------------------------*/
+.truc{
+	background-color: #f1f1f1;
+	margin-left: 200px;
+    padding-top: 80px;
+}
+/*-----------------------------  Article   --------------------------*/
+.flex{
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+
+		.titre_article{
+			font-size: 18px;
+		}
+
+		.article {
+			border-bottom: solid 1px;
+		
+		}
+
+			.total{
+				border-radius: 5px;
+				background-color: #f68e56;
+				color: white;
+				padding: 4px;
+			}
+
+		.merde {
+			display: flex;
+			justify-content: space-between;
+			align-items: baseline;
+		}
+		.merde a{
+			font-size: 20px;
+		    height: 34px;
+			width: 44px;
+			border: solid 1px;
+			border-radius: 5px;
+			background-color: #e6e6e6;
+		}
+		.merde a:hover{
+		
+			background-color: #f68e56;
+			color: white;
+			border: solid 1px;
+			border-radius: 5px;
+			border-color: black;
+		}
+
+		.merde2{
+			display: flex;
+			margin-bottom:5px; 
+
+		}
+
+		.supp{
+			display: flex;
+    		justify-content: center;
+    		align-items: center;
+		}
+
+/*-----------------------------------------------*/
+.cadre{
+		margin: 23px;
+		padding: 20px;
+		background-color: white;
+		border-radius: 10px;
+		box-shadow: 1px 1px 6px rgba(0,0,0,0.5);
+	}
+
+	.conteneur{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.element{
+		width: 50%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.checkbox{
+	   	width: 40%;
+	   	margin-top: -7.5%;
+	}
+	.interne{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	    flex-direction: row-reverse;
+	}
+
+.text{
+	border-radius: 5px;
+}
+/*---------------------------------------------*/
+/* a Maxime */
+
+.li_liste
+{
+	padding-bottom: 25px;
+	margin-bottom: 25px;
+	border-bottom: 1px #c3c3c3 solid;
+	list-style-type: none;
+	height: 45px;
+}
+
+.div_liste
+{
+	font-size: 1.2em;
+	display: inline-block;
+}
+
+.div_delete
+{
+	float: right;
+	display: inline-block;
+	font-size: 1.5em;
+}
+
+
+.div_delete a
+{
+	display: inline-block;
+	color: #515151;
+	background-color: #e6e6e6;
+	padding: 10px 15px;
+	border: solid 1px #a1a1a1;
+	width: 50px;
+	height: 50px;
+	box-sizing: border-box;
+}
+
+.div_delete a:hover
+{
+	color: white;
+	background-color: #f78e57;
+	border-color: black;
+}
+
+.Collage{
+
+    /* define how much padding you want in between your images */
+    padding:10px;
+
+    }
+
+.Collage img{
+
+    /* ensures padding at the bottom of the image is correct */
+    vertical-align:bottom;
+
+    /* hide the images until the plugin has run. the plugin will reveal the images*/
+    opacity:0;
+    
+    border: 1px dotted #777;
+    margin: 1px;
+    filter: grayscale(0.75);
+    -webkit-filter: grayscale(0.75); 
+    }
